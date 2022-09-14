@@ -1,7 +1,16 @@
 require 'rubygems'
 require 'sinatra'
 require "sinatra/namespace"
+require "sinatra/cors"
 require 'anystyle'
+
+
+
+# CORS configs
+set :allow_origin, "*"
+set :allow_methods, "GET,HEAD,POST"
+set :allow_headers, "content-type,if-modified-since"
+set :expose_headers, "location,link"
 
 # Endpoints
 get '/' do
