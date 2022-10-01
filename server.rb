@@ -19,6 +19,12 @@ end
 
 
 namespace '/api/v1' do
+    
+    get '/status' do
+        status 200
+        "OK"
+    end
+
     get '/parse' do
         text = params['text']
         if !text
