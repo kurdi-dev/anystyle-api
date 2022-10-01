@@ -51,4 +51,4 @@ DEPENDENCIES
   sinatra-cors (~> 1.2)
 
 BUNDLED WITH
-   2.3.7
+   2.3.22

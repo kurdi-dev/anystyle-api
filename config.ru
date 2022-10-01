@@ -1,3 +1,3 @@
 # config.ru
-require './server'
+require './main'
 run Sinatra::Application
