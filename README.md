@@ -20,7 +20,7 @@ install the required Gems from the Gemfile
 Spin up the server
 
 ```bash
-  ruby server.rb
+  ruby main.rb -o 0.0.0.0
 ```
 
 ## API Reference
